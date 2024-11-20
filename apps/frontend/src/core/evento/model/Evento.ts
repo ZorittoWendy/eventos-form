@@ -1,4 +1,5 @@
-export default interface Evento{
+import Convidado from "./Convidado";
+export default interface Evento {
     id: string;
     alias: string;
     senha: string;
@@ -9,4 +10,5 @@ export default interface Evento{
     imagem: string;
     imagemBackground: string;
     publicoEsperado: number;
-}
+    convidados: Convidado[]
+}  
