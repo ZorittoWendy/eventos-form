@@ -1,3 +1,5 @@
 import Alias from "./Alias";
 import Id from "./Id";
-export { Alias, Id };
+import Senha from "./Senha";
+import Data from "./Data";
+export { Alias, Id, Senha, Data };
